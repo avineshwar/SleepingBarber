@@ -22,7 +22,6 @@ void *barber_function(void *);
 void random_wait(int secs);
 
 /* Define the semaphores. */
-
 /* waitingRoom_sempahore Limits the # of customers allowed to enter the waiting room at one time. */
 sem_t waitingRoom_sempahore;   
 
